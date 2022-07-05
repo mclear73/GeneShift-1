@@ -1,0 +1,2 @@
+task_id	hash	native_id	process	tag	name	status	exit	module	container	cpus	time	disk	memory	attempt	submit	start	complete	duration	realtime	queue	%cpu	%mem	rss	vmem	peak_rss	peak_vmem	rchar	wchar	syscr	syscw	read_bytes	write_bytes	vol_ctxt	inv_ctxt	workdir	scratch	error_action
+1	48/d9049e	66.instance-5	data_prep	-	data_prep (1)	ABORTED	-	-	-	1	-	-	-	1	1655392774241	0	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	/home/mclear73/GeneShift/work/48/d9049e277bac44874126705301a0a0	-	-

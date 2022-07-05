@@ -1,0 +1,11 @@
+#PBS -N 01DTWKM
+
+
+### The purpose of this pbs is to be a Template for DTW KMeans Cluster###
+
+cd ${PBS_O_WORKDIR}
+
+
+source activate deep-learning
+BASEDIR=$(cat basedir.txt)
+python ${BASEDIR}/01-DTWKMeans/DTWKMeans.py -i ${BASEDIR}/Input/*OFFremoved_exp.csv -k 1 -o ${BASEDIR}/01-DTWKMeans/DTWKMeans/DTW-K1 -p DTW-K1

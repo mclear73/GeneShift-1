@@ -2,9 +2,9 @@
  
 BASEDIR=$(pwd)
 
-Kmin=$1
-Kmax=$2
-StepSize=$3
+Kmin=1
+Kmax=2
+StepSize=3
 
 
 mkdir -p ${BASEDIR}/DTWKMeans/PBS

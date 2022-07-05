@@ -1,0 +1,71 @@
+Plot the optimal cluster results
+---------------------------------
+Input Gene Expression Matrix has 1437 entries with 5 time points
+Reading clustering results
+There are 20 clusters in total
+Computing the nearest centroid for each cluster
+total_no_of_figs 4
+total_rows 3.0
+Detect the shift under condition A and condition B
+--------------------------------------------------
+Replicate threshold 3
+---------------------
+##################### Cluster Change Output by GeneShift#######################
+
+#A OFF genes:  261
+#B OFF genes:  260
+The threshold for consistent rep is  3
+There are 49 valid(consistent) genes in total
+
+There are 19 genes are qualified for downstream analysis
+
+Pattern to Pattern:  19
+A OFF to B Pattern:  0
+A Pattern to B OFF:  0
+No overlapping elements being found
+Pattern to Pattern: None
+No overlapping elements being found
+A OFF to B Pattern: None
+No overlapping elements being found
+A Pattern to B OFF: None
+                                           gene
+Cluster                                        
+A_DTW-K1-001-DPGP001_B_DTW-K1-001-DPGP001    10
+A_DTW-K1-001-DPGP006_B_DTW-K1-001-DPGP006     9
+For 19 genes under our analysis.
+0 genes shift between A and B.
+19 genes behave the same pattern under A and B.
+For 19 genes under condition A and B, they have 2 ways of responding
+The results have saved to csv files
+Replicate threshold 2
+---------------------
+##################### Cluster Change Output by GeneShift#######################
+
+#A OFF genes:  261
+#B OFF genes:  260
+The threshold for consistent rep is  2
+There are 140 valid(consistent) genes in total
+
+There are 59 genes are qualified for downstream analysis
+
+Pattern to Pattern:  58
+A OFF to B Pattern:  1
+A Pattern to B OFF:  0
+No overlapping elements being found
+Pattern to Pattern: None
+No overlapping elements being found
+A OFF to B Pattern: None
+No overlapping elements being found
+A Pattern to B OFF: None
+                                           gene
+Cluster                                        
+A_DTW-K1-001-DPGP001_B_DTW-K1-001-DPGP001    17
+A_DTW-K1-001-DPGP004_B_DTW-K1-001-DPGP004     1
+A_DTW-K1-001-DPGP006_B_DTW-K1-001-DPGP006    22
+A_DTW-K1-001-DPGP014_B_DTW-K1-001-DPGP014     2
+A_DTW-K1-001-DPGP015_B_DTW-K1-001-DPGP015     1
+For 59 genes under our analysis.
+16 genes shift between A and B.
+43 genes behave the same pattern under A and B.
+For 59 genes under condition A and B, they have 18 ways of responding
+The results have saved to csv files

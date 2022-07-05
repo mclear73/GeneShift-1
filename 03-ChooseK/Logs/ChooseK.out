@@ -1,0 +1,4 @@
+Input Gene Expression Matrix has 1437 entries with 5 time points
+For DTW_n_clusters = 1 The calinski_harabasz_score is : 229.67135901124308
+For DTW_n_clusters = 1 The average silhouette_score is : 0.12753402172935246
+For DTW_n_clusters = 1 The Davies-Bouldin index is : 1.6459252587782127

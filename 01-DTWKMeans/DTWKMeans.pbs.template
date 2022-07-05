@@ -1,12 +1,12 @@
 #PBS -N 01DTWKM
-#PBS -l select=1:ncpus=2:mem=8gb:interconnect=hdr,walltime=72:00:00
+#PBS -l ncpus=32
+#PBS -l mem=240gb
 
 
 ### The purpose of this pbs is to be a Template for DTW KMeans Cluster###
 
 cd ${PBS_O_WORKDIR}
 
-module add anaconda3/5.1.0-gcc/8.3.1
 
 source activate deep-learning
 BASEDIR=$(cat basedir.txt)

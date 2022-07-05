@@ -19,7 +19,7 @@ import pandas as pd
 import collections
 import matplotlib.pyplot as plt 
 import matplotlib.cm as cm
-from sklearn.neighbors.nearest_centroid import NearestCentroid
+from sklearn.neighbors import NearestCentroid
 import argparse
 ###############################################################################################################
 #
