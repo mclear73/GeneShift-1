@@ -1,6 +1,6 @@
 #PBS -N 01DTWKM
 #PBS -l ncpus=32
-#PBS -l mem=240gb
+#PBS -l mem=200gb
 
 
 ### The purpose of this pbs is to be a Template for DTW KMeans Cluster###

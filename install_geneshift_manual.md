@@ -93,6 +93,16 @@
 
 		conda deactivate
 
+		conda create -n deep-learning python=3.6 matplotlib numpy pandas scikit-learn argparse os math collections
+		
+		conda activate deep-learning
+
+		conda install -c anaconda h5py
+
+		conda install -c conda-forge tslearn
+
+		conda deactivate
+
 ### Clone updated GeneShift scripts from my github 
 - Clone directory
 

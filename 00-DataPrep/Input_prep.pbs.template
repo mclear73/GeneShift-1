@@ -1,6 +1,6 @@
 #PBS -N 00Prep
 #PBS -l ncpus=32
-#PBS -l mem=240gb
+#PBS -l mem=200gb
 
 
 cd ${PBS_O_WORKDIR}
