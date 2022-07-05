@@ -1,0 +1,10 @@
+#PBS -N 03-1Comp
+
+
+cd ${PBS_O_WORKDIR}
+
+
+source activate deep-learning
+BASEDIR=$(cat basedir.txt)
+
+python ${BASEDIR}/03-ChooseK/Cluster_Compile.py -emx ${BASEDIR}/Input/*OFFremoved_exp.csv -i ${BASEDIR} -k 1

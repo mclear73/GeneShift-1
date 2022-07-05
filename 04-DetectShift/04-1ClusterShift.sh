@@ -2,7 +2,7 @@
 
 BASEDIR=$(pwd)
 
-OPTIMAL_K=$1
+OPTIMAL_K=1
 
 mkdir -p ${BASEDIR}/OptimalK$OPTIMAL_K/ClusterPlots
 mkdir -p ${BASEDIR}/OptimalK$OPTIMAL_K/Logs
