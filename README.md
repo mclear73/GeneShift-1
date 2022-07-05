@@ -1,5 +1,7 @@
 # GeneShift
 
+Note: this repo has been forked and edited to run on a different cluster than was originally designed. No substantial changes have been made to the code. Bash and PBS scripts were simply changed to so they could run on a different cluster.
+
 This workflow is designed to detect pattern change of time-series gene expression data. 
 ![Image of GeneShift](https://github.com/yueyaog/GeneShift/blob/master/Auxiliary/GeneShift_repo.png)
 
