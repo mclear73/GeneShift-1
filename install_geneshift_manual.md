@@ -93,7 +93,7 @@
 
 		conda deactivate
 
-		conda create -n deep-learning python=3.6 matplotlib numpy pandas scikit-learn argparse os math collections
+		conda create -n deep-learning python=3.6 matplotlib numpy pandas scikit-learn
 		
 		conda activate deep-learning
 
